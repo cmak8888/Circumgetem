@@ -1,0 +1,163 @@
+body {
+    background-image: url("Images/background.png");
+	/* background-repeat: no-repeat; */
+}
+
+#gameCanvas{
+	background-color: black;
+	text-align:center;
+	margin-left: 20%;
+	margin-right: 20%;
+    border: 3px solid white;
+}
+#title{
+	color: White;
+	text-align: center;
+	width: 30%;
+	margin-left: 35%;
+	margin-bottom: 5%;
+	background-color: black;
+	border-radius: 20px;
+	border: 2px solid white;
+	text-shadow: 0 0 3px #FFFFFF;
+}
+
+
+button {
+    color: white;
+    
+  
+    border-radius: 12px;
+    text-align: center;
+    font-size: 16pt;
+    box-shadow: 2px 3px 5px #000000;
+    display: block;
+    
+    cursor: pointer;
+    margin: 30px;
+    border-color: silver;
+	
+	
+}
+
+
+
+
+.start {
+    background-color: #006400;
+    margin-left: 45%;
+	padding: 1em 3em;
+}
+
+.start:hover {
+    background-color: #004400;
+}
+
+
+
+button:active {
+    top: 2px;
+    left: 3px; 
+    box-shadow: none;
+}
+  
+
+h1 {
+    margin-left: 40%;
+    
+    color: slateblue;
+
+}
+
+#submit {
+    background-color: #87CEEB;
+	padding: 0.8em 1.5em;
+
+}
+
+#submit:hover {
+    background-color: #65AEEB;
+}
+
+
+#error-one {
+    color: red;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	/*  height: 300px;  */
+}
+
+
+.glossary-screen:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+.back {
+    background-color: #8B008B;
+	padding: 1em 3em;
+
+}
+
+.back:hover {
+    background-color: #690069;
+}
+
+
+.game-over {
+    
+    color: red;
+
+    text-align: center;
+    text-shadow: 2px 3px gray;
+
+    font-weight: bold;
+
+    font-size: 28pt;
+
+}
+
+
+#try-again {
+    background-color: 	#FFA500;
+
+}
+
+#try-again:hover {
+    background-color: #DD8300;
+}
+
+#main-menu {
+    background-color: #6A5ACD;
+
+}
+
+#main-menu:hover {
+    background-color: #483ACD;
+}
+
+
+#username {
+	padding: 30px, 4px;
+}
+
+.enter-name {
+	font-size: 14pt;
+}
+
+
+
+
